@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <nav class="container">
+        <h1>Network</h1>
+    </nav>
+    <aside class="container">
+        <h1>Your Feed</h1>
+    </aside>
+    <main class="container">
+        <div class="self">
+            <a href="">Add an avatar</a>
+            <h1>James Doe</h1>
+        </div>
+        <div class="like-container">
+            <div class="like-box">
+                <div class="topbar">
+                    <ul class="like-elements">
+                        <li class="name">Neil M</li>
+                        <li class="blank">BLANK</li>
+                        <li id="like1">0</li>
+                        <li>like(s)</li>
+                        <li><button class="like-button" onclick="likeCounter()">Like</button></li>
+                    </ul>
+                </div>
+                <div class="feed-text">
+                    <p>I just set up this new discord bot, let me know what you think.</p>
+                </div>
+            </div>
+            <div class="like-box">
+                <div class="topbar">
+                    <ul class="like-elements">
+                        <li class="name">Nichole K</li>
+                        <li class="blank">BLANK</li>
+                        <li id="like2">0</li>
+                        <li>like(s)</li>
+                        <li><button class="like-button" onclick="likeCounter2()">Like</button></li>
+                    </ul>
+                </div>
+                <div class="feed-text">
+                    <p>Just finished my next comic, check it out.</p>
+                </div>
+            </div>
+            <div class="like-box">
+                <div class="topbar">
+                    <ul class="like-elements">
+                        <li class="name">Jim R</li>
+                        <li class="blank">BLANK</li>
+                        <li id="like3">0</li>
+                        <li>like(s)</li>
+                        <li><button class="like-button" onclick="likeCounter3()">Like</button></li>
+                    </ul>
+                </div>
+                <div class="feed-text">
+                    <p>I can't stop listening to the new album. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
